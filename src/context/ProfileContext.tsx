@@ -1,5 +1,5 @@
 import { createContext, useCallback, useContext, useState, type ReactNode } from 'react';
-import type { AcademicProfile } from '@/types';
+import type { AcademicProfile } from '@/utils/types';
 
 interface ProfileContextValue {
   profile: AcademicProfile | null;

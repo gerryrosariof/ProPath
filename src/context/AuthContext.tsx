@@ -1,6 +1,6 @@
 import { createContext, useCallback, useContext, useState, type ReactNode } from 'react';
-import type { Role, SessionUser } from '@/types';
-import { SEED_USERS } from '@/mock/users';
+import type { Role, SessionUser } from '@/utils/types';
+import { SEED_USERS } from '@/data/users';
 
 interface AuthContextValue {
   user: SessionUser | null;

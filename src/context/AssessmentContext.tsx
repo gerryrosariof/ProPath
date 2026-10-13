@@ -1,6 +1,6 @@
 import { createContext, useCallback, useContext, useState, type ReactNode } from 'react';
-import type { AssessmentAnswers, InstrumentId, InstrumentStatus } from '@/types';
-import { ASSESSMENT_INSTRUMENTS } from '@/mock/assessments';
+import type { AssessmentAnswers, InstrumentId, InstrumentStatus } from '@/utils/types';
+import { ASSESSMENT_INSTRUMENTS } from '@/data/assessments';
 
 interface AssessmentContextValue {
   answers: AssessmentAnswers;

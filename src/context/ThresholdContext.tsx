@@ -1,6 +1,6 @@
 import { createContext, useCallback, useContext, useState, type ReactNode } from 'react';
-import type { ThresholdConfig } from '@/types';
-import { DEFAULT_THRESHOLDS } from '@/mock/thresholds';
+import type { ThresholdConfig } from '@/utils/types';
+import { DEFAULT_THRESHOLDS } from '@/data/thresholds';
 
 interface ThresholdContextValue {
   thresholds: Record<string, ThresholdConfig>;
