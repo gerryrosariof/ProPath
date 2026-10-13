@@ -7,8 +7,8 @@ import { Button } from '@/components/ui/Button';
 import { ProgressBar } from '@/components/ui/ProgressBar';
 import { LikertScale } from '@/components/assessment/LikertScale';
 import { useAssessment } from '@/context/AssessmentContext';
-import { ASSESSMENT_INSTRUMENTS } from '@/mock/assessments';
-import type { InstrumentId } from '@/types';
+import { ASSESSMENT_INSTRUMENTS } from '@/data/assessments';
+import type { InstrumentId } from '@/utils/types';
 
 export function TestPlayer() {
   const { instrumentId } = useParams<{ instrumentId: string }>();

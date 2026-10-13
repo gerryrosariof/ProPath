@@ -3,7 +3,7 @@ import { Users, ClipboardCheck, Trophy, Clock, ArrowRight, TrendingUp, Info } fr
 import { AppShell } from '@/components/layout/AppShell';
 import { Card, CardHeader } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
-import { MOCK_STUDENTS } from '@/mock/users';
+import { MOCK_STUDENTS } from '@/data/users';
 
 export function CounselorDashboard() {
   const total = MOCK_STUDENTS.length;

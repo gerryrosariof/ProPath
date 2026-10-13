@@ -5,8 +5,8 @@ import { Card, CardHeader } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
 import { Select } from '@/components/ui/Input';
-import { MOCK_TRAINING_DATA, PROGRAMS } from '@/mock/training-data';
-import type { Category } from '@/types';
+import { MOCK_TRAINING_DATA, PROGRAMS } from '@/data/model';
+import type { Category } from '@/utils/types';
 
 const CATEGORY_TONES: Record<Category, 'red' | 'amber' | 'green'> = {
   Low: 'red',

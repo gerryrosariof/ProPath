@@ -6,9 +6,9 @@ import type {
   Category,
   RiasecCode,
   ThresholdConfig,
-} from '@/types';
-import { ASSESSMENT_INSTRUMENTS } from '@/mock/assessments';
-import { DEFAULT_THRESHOLDS } from '@/mock/thresholds';
+} from '@/utils/types';
+import { ASSESSMENT_INSTRUMENTS } from '@/data/assessments';
+import { DEFAULT_THRESHOLDS } from '@/data/thresholds';
 
 export function categorize(normalizedPct: number, threshold: ThresholdConfig): Category {
   if (normalizedPct < threshold.lowMax) return 'Low';

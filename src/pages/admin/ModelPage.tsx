@@ -6,9 +6,9 @@ import { Card, CardHeader } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
 import { Input } from '@/components/ui/Input';
-import { MOCK_MODEL_RESULTS } from '@/mock/model-results';
-import { MOCK_TRAINING_DATA, PROGRAMS } from '@/mock/training-data';
-import type { ModelResults } from '@/types';
+import { MOCK_MODEL_RESULTS } from '@/data/model';
+import { MOCK_TRAINING_DATA, PROGRAMS } from '@/data/model';
+import type { ModelResults } from '@/utils/types';
 
 type TrainState = 'idle' | 'training' | 'done';
 

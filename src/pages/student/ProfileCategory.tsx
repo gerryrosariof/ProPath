@@ -10,9 +10,9 @@ import { useAssessment } from '@/context/AssessmentContext';
 import { useProfile } from '@/context/ProfileContext';
 import { useThresholds } from '@/context/ThresholdContext';
 import { useAuth } from '@/context/AuthContext';
-import { categorizeProfile, generateMockAnswers, generateMockProfile } from '@/lib/categorize';
-import { ASSESSMENT_INSTRUMENTS } from '@/mock/assessments';
-import type { CategorizedAttribute, Category, InstrumentId } from '@/types';
+import { categorizeProfile, generateMockAnswers, generateMockProfile } from '@/utils/categorize';
+import { ASSESSMENT_INSTRUMENTS } from '@/data/assessments';
+import type { CategorizedAttribute, Category, InstrumentId } from '@/utils/types';
 
 const CATEGORY_TONES: Record<Category, 'red' | 'amber' | 'green'> = {
   Low: 'red',

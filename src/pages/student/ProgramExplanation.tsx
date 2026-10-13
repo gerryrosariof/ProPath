@@ -4,7 +4,7 @@ import { AppShell } from '@/components/layout/AppShell';
 import { Card, CardHeader } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
-import { MOCK_RECOMMENDATIONS } from '@/mock/recommendations';
+import { MOCK_RECOMMENDATIONS } from '@/data/recommendations';
 
 export function ProgramExplanation() {
   const { rank } = useParams<{ rank: string }>();

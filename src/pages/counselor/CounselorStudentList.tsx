@@ -5,8 +5,8 @@ import { AppShell } from '@/components/layout/AppShell';
 import { Card } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
 import { Select } from '@/components/ui/Input';
-import { MOCK_STUDENTS } from '@/mock/users';
-import type { Strand, Track } from '@/types';
+import { MOCK_STUDENTS } from '@/data/users';
+import type { Strand, Track } from '@/utils/types';
 
 type StatusFilter = 'all' | 'no-profile' | 'in-progress' | 'completed';
 

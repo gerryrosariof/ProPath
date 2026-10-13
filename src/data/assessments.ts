@@ -1,4 +1,4 @@
-import type { AssessmentInstrument } from '@/types';
+import type { AssessmentInstrument } from '@/utils/types';
 
 export const ASSESSMENT_INSTRUMENTS: AssessmentInstrument[] = [
   {

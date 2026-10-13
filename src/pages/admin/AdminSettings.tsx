@@ -7,9 +7,9 @@ import { Input } from '@/components/ui/Input';
 import { Badge } from '@/components/ui/Badge';
 import { BarChart } from '@/components/charts/BarChart';
 import { useThresholds } from '@/context/ThresholdContext';
-import { THRESHOLD_LABELS } from '@/mock/thresholds';
-import { categorize, generateMockAnswers, generateMockProfile, categorizeProfile } from '@/lib/categorize';
-import type { Category, ThresholdConfig } from '@/types';
+import { THRESHOLD_LABELS } from '@/data/thresholds';
+import { categorize, generateMockAnswers, generateMockProfile, categorizeProfile } from '@/utils/categorize';
+import type { Category, ThresholdConfig } from '@/utils/types';
 
 const THRESHOLD_KEYS = ['academic', 'aptitude', 'interest', 'skill', 'personality', 'gwa', 'subject'];
 

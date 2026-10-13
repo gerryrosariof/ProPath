@@ -4,7 +4,7 @@ import { GraduationCap, Mail, AlertCircle } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { Input } from '@/components/ui/Input';
 import { useAuth } from '@/context/AuthContext';
-import { SEED_USERS } from '@/mock/users';
+import { SEED_USERS } from '@/data/users';
 
 export function Login() {
   const { login } = useAuth();

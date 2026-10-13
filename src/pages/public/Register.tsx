@@ -4,7 +4,7 @@ import { GraduationCap, GraduationCap as StudentIcon, Users as CounselorIcon, Sh
 import { Button } from '@/components/ui/Button';
 import { Input } from '@/components/ui/Input';
 import { useAuth } from '@/context/AuthContext';
-import type { Role } from '@/types';
+import type { Role } from '@/utils/types';
 
 const ROLE_OPTIONS: { role: Role; label: string; desc: string; icon: typeof StudentIcon }[] = [
   { role: 'student', label: 'Student', desc: 'Take assessments and get recommendations', icon: StudentIcon },

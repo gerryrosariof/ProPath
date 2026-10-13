@@ -10,9 +10,9 @@ import { useAssessment } from '@/context/AssessmentContext';
 import { useProfile } from '@/context/ProfileContext';
 import { useThresholds } from '@/context/ThresholdContext';
 import { useAuth } from '@/context/AuthContext';
-import { categorizeProfile, generateMockAnswers, generateMockProfile } from '@/lib/categorize';
-import { MOCK_RECOMMENDATIONS } from '@/mock/recommendations';
-import type { Category } from '@/types';
+import { categorizeProfile, generateMockAnswers, generateMockProfile } from '@/utils/categorize';
+import { MOCK_RECOMMENDATIONS } from '@/data/recommendations';
+import type { Category } from '@/utils/types';
 
 const CATEGORY_TONES: Record<Category, 'red' | 'amber' | 'green'> = {
   Low: 'red',

@@ -5,11 +5,11 @@ import { Card, CardHeader } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
 import { DonutChart } from '@/components/charts/DonutChart';
 import { BarChart } from '@/components/charts/BarChart';
-import { MOCK_STUDENTS } from '@/mock/users';
-import { MOCK_RECOMMENDATIONS } from '@/mock/recommendations';
-import { categorizeProfile, generateMockAnswers, generateMockProfile } from '@/lib/categorize';
-import { DEFAULT_THRESHOLDS } from '@/mock/thresholds';
-import type { Category } from '@/types';
+import { MOCK_STUDENTS } from '@/data/users';
+import { MOCK_RECOMMENDATIONS } from '@/data/recommendations';
+import { categorizeProfile, generateMockAnswers, generateMockProfile } from '@/utils/categorize';
+import { DEFAULT_THRESHOLDS } from '@/data/thresholds';
+import type { Category } from '@/utils/types';
 
 const CATEGORY_TONES: Record<Category, 'red' | 'amber' | 'green'> = {
   Low: 'red',

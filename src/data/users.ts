@@ -1,4 +1,4 @@
-import type { SessionUser, Strand, Track } from '@/types';
+import type { SessionUser, Strand, Track } from '@/utils/types';
 
 export const SEED_USERS: SessionUser[] = [
   {

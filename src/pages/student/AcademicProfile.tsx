@@ -9,7 +9,7 @@ import { Badge } from '@/components/ui/Badge';
 import { useAuth } from '@/context/AuthContext';
 import { useProfile } from '@/context/ProfileContext';
 import { STRANDS_BY_TRACK, STRAND_LABELS, TRACK_LABELS, ACADEMIC_SUBJECTS, PHILIPPINE_UNIVERSITIES } from '@/data/constants';
-import type { Track, Strand, SubjectGrade } from '@/types';
+import type { Track, Strand, SubjectGrade } from '@/utils/types';
 
 export function AcademicProfile() {
   const navigate = useNavigate();

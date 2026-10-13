@@ -1,4 +1,4 @@
-import type { ThresholdConfig } from '@/types';
+import type { ThresholdConfig } from '@/utils/types';
 
 export const DEFAULT_THRESHOLDS: Record<string, ThresholdConfig> = {
   academic: { lowMax: 40, averageMax: 70 },

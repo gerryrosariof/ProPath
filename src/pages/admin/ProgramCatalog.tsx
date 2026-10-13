@@ -5,8 +5,8 @@ import { Card, CardHeader } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
 import { Input, Select } from '@/components/ui/Input';
-import { MOCK_PROGRAMS, type CollegeProgram } from '@/mock/programs';
-import type { Strand } from '@/types';
+import { MOCK_PROGRAMS, type CollegeProgram } from '@/data/programs';
+import type { Strand } from '@/utils/types';
 
 const ALL_STRANDS: Strand[] = ['STEM', 'ABM', 'HUMSS', 'GAS', 'ICT', 'HE', 'IA'];
 

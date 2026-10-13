@@ -4,8 +4,8 @@ import { ArrowLeft, GitBranch, ListTree, ChevronRight, ChevronDown, Target, Info
 import { AppShell } from '@/components/layout/AppShell';
 import { Card, CardHeader } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
-import { MOCK_DECISION_TREE, MOCK_DECISION_RULES } from '@/mock/decision-tree';
-import type { DecisionTreeNode } from '@/types';
+import { MOCK_DECISION_TREE, MOCK_DECISION_RULES } from '@/data/model';
+import type { DecisionTreeNode } from '@/utils/types';
 
 function TreeNode({ node, depth, isLast }: { node: DecisionTreeNode; depth: number; isLast: boolean }) {
   const [expanded, setExpanded] = useState(true);

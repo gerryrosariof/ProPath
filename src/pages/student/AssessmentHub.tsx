@@ -6,8 +6,8 @@ import { Badge } from '@/components/ui/Badge';
 import { ProgressBar } from '@/components/ui/ProgressBar';
 import { useAssessment } from '@/context/AssessmentContext';
 import { useAuth } from '@/context/AuthContext';
-import { ASSESSMENT_INSTRUMENTS } from '@/mock/assessments';
-import type { InstrumentId } from '@/types';
+import { ASSESSMENT_INSTRUMENTS } from '@/data/assessments';
+import type { InstrumentId } from '@/utils/types';
 
 const ICONS: Record<string, typeof Brain> = {
   brain: Brain,

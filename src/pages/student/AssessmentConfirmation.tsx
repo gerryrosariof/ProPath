@@ -7,8 +7,8 @@ import { Button } from '@/components/ui/Button';
 import { ProgressBar } from '@/components/ui/ProgressBar';
 import { useAssessment } from '@/context/AssessmentContext';
 import { useAuth } from '@/context/AuthContext';
-import { ASSESSMENT_INSTRUMENTS } from '@/mock/assessments';
-import type { InstrumentId } from '@/types';
+import { ASSESSMENT_INSTRUMENTS } from '@/data/assessments';
+import type { InstrumentId } from '@/utils/types';
 
 export function AssessmentConfirmation() {
   const { getInstrumentStatus, completedCount, allCompleted } = useAssessment();

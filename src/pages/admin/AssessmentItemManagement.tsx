@@ -5,8 +5,8 @@ import { Card, CardHeader } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
 import { Input, Select } from '@/components/ui/Input';
-import { ASSESSMENT_INSTRUMENTS } from '@/mock/assessments';
-import type { AssessmentInstrument, Question, QuestionType, QuestionOption } from '@/types';
+import { ASSESSMENT_INSTRUMENTS } from '@/data/assessments';
+import type { AssessmentInstrument, Question, QuestionType, QuestionOption } from '@/utils/types';
 
 export function AssessmentItemManagement() {
   const [instruments, setInstruments] = useState<AssessmentInstrument[]>(() =>

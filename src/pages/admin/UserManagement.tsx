@@ -5,9 +5,9 @@ import { Card } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
 import { Input, Select } from '@/components/ui/Input';
-import { MOCK_MANAGED_USERS, type ManagedUser } from '@/mock/users';
+import { MOCK_MANAGED_USERS, type ManagedUser } from '@/data/users';
 import { STRANDS_BY_TRACK } from '@/data/constants';
-import type { Role, Strand, Track } from '@/types';
+import type { Role, Strand, Track } from '@/utils/types';
 
 export function UserManagement() {
   const [users, setUsers] = useState<ManagedUser[]>(MOCK_MANAGED_USERS);

@@ -3,8 +3,8 @@ import { ArrowLeft, Route, Target, CheckCircle2, Briefcase, Info } from 'lucide-
 import { AppShell } from '@/components/layout/AppShell';
 import { Card, CardHeader } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
-import { MOCK_STUDENTS } from '@/mock/users';
-import { MOCK_RECOMMENDATIONS } from '@/mock/recommendations';
+import { MOCK_STUDENTS } from '@/data/users';
+import { MOCK_RECOMMENDATIONS } from '@/data/recommendations';
 
 export function CounselorProgramExplanation() {
   const { studentId, rank } = useParams<{ studentId: string; rank: string }>();

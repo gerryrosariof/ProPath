@@ -3,9 +3,9 @@ import { Users, Database, Cpu, BookOpen, Settings, ArrowRight, TrendingUp, Info,
 import { AppShell } from '@/components/layout/AppShell';
 import { Card } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
-import { MOCK_MANAGED_USERS, MOCK_STUDENTS } from '@/mock/users';
-import { MOCK_PROGRAMS } from '@/mock/programs';
-import { ASSESSMENT_INSTRUMENTS } from '@/mock/assessments';
+import { MOCK_MANAGED_USERS, MOCK_STUDENTS } from '@/data/users';
+import { MOCK_PROGRAMS } from '@/data/programs';
+import { ASSESSMENT_INSTRUMENTS } from '@/data/assessments';
 
 export function AdminDashboard() {
   const totalUsers = MOCK_MANAGED_USERS.length;

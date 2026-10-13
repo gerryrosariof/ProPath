@@ -1,4 +1,4 @@
-import type { Strand, Track } from '@/types';
+import type { Strand, Track } from '@/utils/types';
 
 export const STRANDS_BY_TRACK: Record<Track, Strand[]> = {
   Academic: ['STEM', 'ABM', 'HUMSS', 'GAS'],
