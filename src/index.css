@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media print {
+  /* Hide sidebar, topbar, and navigation controls */
+  aside,
+  header,
+  .print\:hidden {
+    display: none !important;
+  }
+
+  /* Expand main content to full width */
+  main {
+    padding: 0 !important;
+    overflow: visible !important;
+  }
+
+  /* Use full page width, remove max-width constraints */
+  .max-w-3xl,
+  .max-w-4xl,
+  .max-w-5xl,
+  .max-w-6xl,
+  .max-w-none {
+    max-width: 100% !important;
+  }
+
+  /* Ensure cards don't break across pages */
+  .rounded-2xl,
+  .rounded-xl {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Remove shadows and borders that waste ink */
+  .shadow-sm {
+    box-shadow: none !important;
+  }
+
+  /* White background for print */
+  body {
+    background: white !important;
+  }
+
+  /* Ensure text is black for readability */
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
